@@ -4,6 +4,9 @@ import  Tmdb from './Tmdb'
 import MovieRow from './componentes/MovieRow/MovieRow';
 import FeatureMovie from './componentes/FeatureMovie/FeatureMovie';
 import Header from './componentes/Header';
+import Linkedin from '../public/imagem/linkedin.png'
+import Github from '../public/imagem/github.png'
+
 
 
 
@@ -79,9 +82,9 @@ const [blackHeader, setBlackHeader] = useState(false);
         <footer>
          <h3>Desenvolvido por Gisele França</h3>
           <div className='footer--links'>
-            <a href="https://github.com/Gisa99"><img src='public/imagem/github.png' alt="Logo Github" target="_blank"/></a>
+            <a href="https://github.com/Gisa99"><img src={Github} alt="Logo Github" target="_blank"/></a>
 
-            <a href="https://www.linkedin.com/in/giselefranca-devfrontend/" target="_blank"><img src='public/imagem/linkedin.png' alt="Logo Github"/></a>
+            <a href="https://www.linkedin.com/in/giselefranca-devfrontend/" target="_blank"><img src={Linkedin}/></a>
 
           </div>
           
