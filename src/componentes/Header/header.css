@@ -26,3 +26,9 @@ header.black{
     max-width: 60px;
     
 }
+
+@media (max-width: 768px){
+    header{
+        padding: 10px;
+    }
+}

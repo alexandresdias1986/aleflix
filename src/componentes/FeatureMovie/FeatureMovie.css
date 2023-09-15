@@ -103,6 +103,10 @@
    .featured--info{
       font-size: 16px;
    }
+
+   .featured--horizontal{
+      padding: 70px 0 120px 10px;
+   }
    .featured--description{
       font-size: 14px;
       max-width: 100%;
